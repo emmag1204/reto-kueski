@@ -1,0 +1,81 @@
+.main{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin: 2rem;
+    margin-top: 8.5rem;
+    border-style: solid;
+    border-color: #082859;
+    border-radius: 1.5rem;
+    background-color: #082859;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    color: white;
+}
+
+.botones-texto{
+    font-size: 2rem;
+    text-align: left;
+}
+
+.botones{
+    font-size: 2rem;
+    text-align: right;
+}
+
+.fila{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+}
+
+.tabla{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin: 2rem;
+    margin-top: 5.5rem;
+    margin-bottom: 5rem;
+    border-style: solid;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    color: white;
+}
+
+.seleccion:focus{
+    background-color: #72d13f;
+    color: white;
+}
+
+.rdt_TableCol {
+    background-color: #082859;
+    color: #fff;
+}
+
+.rdt_TableCell {
+    position: absolute;
+    background-color: #72d13f;
+    color: #fff;
+}
+
+.spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+}

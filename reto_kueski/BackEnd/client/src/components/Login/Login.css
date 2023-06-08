@@ -1,0 +1,36 @@
+.fondo {
+    height: 41rem;
+    background-image: linear-gradient(to bottom, #ffffff,  #72d13f);
+}
+
+.registro {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: 3rem;
+    background-color: #082859;
+    width: 40rem;
+    margin-top: 6rem;
+}
+
+.inicio {
+    text-align: center;
+}
+
+.mensaje {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.form-outline {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+
+.btn-primary {
+    align-items: center;
+}

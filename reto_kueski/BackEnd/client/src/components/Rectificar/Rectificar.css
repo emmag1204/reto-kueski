@@ -1,0 +1,24 @@
+.modal-header {
+    background-color: #082859;
+}
+
+.btn-close{
+    background-color:white;
+}
+
+.derecho{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+.row, .btn-primary {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.red-text {
+    color: red;
+    font-weight: bold;
+}
